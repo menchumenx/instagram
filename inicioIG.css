@@ -1,0 +1,164 @@
+
+/* --------> calses colum y row <-----------*/
+/* es mejor no meter paddings en estas clases para que a la hora del responsive no de problemas  */
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+/* --------> general<-----------*/
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family:sans-serif;
+    font-size:12px ;
+
+    
+    /* font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;*/
+}
+
+/* --------> body<-----------*/
+body{
+    background-color: #fafafa;
+}
+
+#bloque1{
+border: solid 1px rgb(190, 185, 185);
+border-radius: 3px;
+padding: 20px;
+height:400px ;
+width: 350px;
+margin-bottom: 10px;
+background-color: white;
+
+}
+#registro{
+    border: solid 1px rgb(190, 185, 185);
+    border-radius: 3px;
+    padding: 20px;
+    width: 350px;
+    height: 40px;
+    text-align: center;
+    background-color: white;
+}
+#introdata{
+    padding: 20px;
+    width: 250px; 
+    height: 40px;
+    border: solid 1px rgb(190, 185, 185);
+    border-radius: 3px;
+    background-color: rgb(236, 235, 235);
+    
+}
+#introdata2{
+    padding: 20px;
+    width: 250px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: solid 1px rgb(190, 185, 185);
+    border-radius: 3px;
+    background-color: rgb(236, 235, 235);
+   
+}
+button{
+   
+    height: 30px;
+    width: 250px;
+    color: white;
+    background-color: #0094f655;
+    border:none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.linea{
+    height: 1px;
+    width: 110px; 
+    background-color: rgb(190, 185, 185);
+}
+.O{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.iniFB{
+    color: #385185;
+    padding: 5px;
+}
+#iFB{
+    font-size: 14px;
+    font-weight:bold;
+}
+
+#registro span{
+    color: #0096F6;
+    font-weight: bold;
+}
+
+#links p{
+    padding-right: 4px;
+    color: #8E8E8E ; 
+}
+#links2 p{
+    margin-top: 0px;
+    padding-right: 4px;
+    color:#8E8E8E ; 
+}
+
+#descarga{
+    margin-top: 10px;
+}
+#descarga p{
+    margin-bottom: 10px;
+}
+
+/* --------> IMGs<-----------*/
+
+#Movil{
+    width: 450px;
+}
+
+#IGlogo{
+    width: 300px;
+    padding-bottom: 30px;
+}
+
+#Dlogo{
+    width: 300px;
+}
+#fbicono{
+    width: 15px;
+}
+
+
+/* --------> footer <-----------*/
+footer{
+    color:#8E8E8E ;
+}
+
+/* --------> mediaQuery <-----------*/
+
+
+@media screen and (max-width:780px){
+ #Movil{
+    display: none;
+ }
+}
+
